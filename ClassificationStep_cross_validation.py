@@ -184,7 +184,7 @@ for driver in drivers:
             
     ######## saving and writing  the result of all drivers in csv file ############
         
-write_results_to_csv_file(list_results,"C:\\Python34\\results\\Telematic_results_cross_validation.csv")
-write_results_to_csv_file(list_results_accuracy,"C:\\Python34\\results\\Telematic_results_cross_validation_accuracy.csv")   
-numpy.save(os.path.join(samplePath,"cross_validation_results_ofDrivers.npy"),cross_validation_of_driver)    
+write_results_to_csv_file(list_results,os.path.join(resultFolder,"Telematic_results_cross_validation.csv"))
+write_results_to_csv_file(list_results_accuracy,os.path.join(resultFolder,"Telematic_results_cross_validation_accuracy.csv"))   
+numpy.save(os.path.join(samplePath,"cross_validation_results_ofDrivers_delete.npy"),cross_validation_of_driver)    
 
