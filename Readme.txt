@@ -60,6 +60,7 @@ Steps to replicate my solution:
 
    - samplePath="....\\samples" should be the destination that you want to save your unlabelled samples
    - driverFolder =  should be changed to where you saved your raw gps files "...\\driver-telematic\\drivers\\drivers"
+   - resultFolder = where you want to save the final result (driver model accuracy and probability of each trip of each driver) in csv format
    
 2) Run "csvtonpy.py" file
 
